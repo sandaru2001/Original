@@ -4,7 +4,102 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="955ff9b5-99d7-462d-a163-8bc249fbe5bc" name="Changes" comment="" />
+    <list default="true" id="955ff9b5-99d7-462d-a163-8bc249fbe5bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/Layered_Project_main__1_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BO/Custom/CustomerBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BO/Custom/Impl/CustomerBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BO/Custom/Impl/ItemBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BO/Custom/Impl/PurchaseBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BO/Custom/PurchaseBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/CrudDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/Impl/CustomerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/Impl/ItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/Impl/OrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/Impl/OrderDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/Impl/QueryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/OrderDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Custom/QueryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/SQLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/SuperDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/BO/Custom/CustomerBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/BO/Custom/Impl/CustomerBOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/BO/Custom/Impl/ItemBOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/BO/Custom/Impl/PurchaseBOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/BO/Custom/ItemBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/BO/Custom/PurchaseBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/CrudDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/CustomerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/Impl/CustomerDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/Impl/ItemDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/Impl/OrderDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/Impl/OrderDetailDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/Impl/QueryDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/ItemDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/OrderDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/OrderDetailDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/Custom/QueryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/DAOFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/DAOFactory$DAOType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/DAOFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/SQLUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/DAO/SuperDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/controller/MainFormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/controller/ManageCustomersFormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/controller/ManageItemsFormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/controller/PlaceOrderFormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/db/DBConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/model/CustomerDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/model/ItemDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/model/OrderDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/model/OrderDetailDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/customers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/home-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/ijse-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/images/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/styles/main-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/styles/manage-customers-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/styles/manage-items-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/styles/place-order-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/styles/search-orders-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/assests/styles/view-order-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/main-form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/manage-customers-form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/manage-items-form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/place-order-form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/tdm/CustomerTM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/tdm/ItemTM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/tdm/OrderDetailTM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Original/view/tdm/OrderTM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/CustomerDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BO/Custom/ItemBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ItemDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/PlaceOrderDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/PlaceOrderDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ManageCustomersFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ManageCustomersFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ManageItemsFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ManageItemsFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/PlaceOrderFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/PlaceOrderFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/OrderDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/OrderDetailDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Original.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Original.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +112,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="2QBVeHf4tlpY4TrbJutGe6aeP8B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +126,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,6 +162,12 @@
       <workItem from="1684898160920" duration="2023000" />
       <workItem from="1684900237022" duration="273000" />
       <workItem from="1684900693122" duration="85000" />
+      <workItem from="1685008016697" duration="126000" />
+      <workItem from="1685057474053" duration="33000" />
+      <workItem from="1685057529047" duration="77000" />
+      <workItem from="1685057639548" duration="21000" />
+      <workItem from="1685286460933" duration="12000" />
+      <workItem from="1685286685653" duration="45000" />
     </task>
     <servers />
   </component>

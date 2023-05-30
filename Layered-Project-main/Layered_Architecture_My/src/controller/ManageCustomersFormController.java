@@ -1,10 +1,9 @@
 package controller;
 
-import DAO.CustomerDAO;
-import DAO.CustomerDAOImpl;
+import DAO.Custom.CustomerDAO;
+import DAO.Custom.Impl.CustomerDAOImpl;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import db.DBConnection;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -76,9 +75,9 @@ public class ManageCustomersFormController {
         /*Get all customers*/
         try {
             //CustomerDAO customerDAO = new CustomerDAOImpl();
-            ArrayList<CustomerDTO> customerDTOArrayList = customerDAO.getAllCustomer();
+            ArrayList<CustomerDTO> customerDTOArrayList = customerDAO.getAll();
 
-            for (CustomerDTO customerDTO :customerDAO.getAllCustomer()) {
+            for (CustomerDTO customerDTO :customerDTOArrayList) {
                 tblCustomers.getItems().add(new CustomerTM(customerDTO.getId(),customerDTO.getName(),customerDTO.getAddress()));
             }
         } catch (SQLException e) {
@@ -151,7 +150,7 @@ public class ManageCustomersFormController {
                 }
 
                 //CustomerDAO customerDAO = new CustomerDAOImpl();
-                customerDAO.saveCustomer(new CustomerDTO(id,name,address));
+                customerDAO.save(new CustomerDTO(id,name,address));
 
                 tblCustomers.getItems().add(new CustomerTM(id, name, address));
             } catch (SQLException e) {
@@ -169,7 +168,7 @@ public class ManageCustomersFormController {
                 }
 
                 //CustomerDAO customerDAO = new CustomerDAOImpl();
-                customerDAO.updateCustomer(new CustomerDTO(id,name,address));
+                customerDAO.update(new CustomerDTO(id,name,address));
 
             } catch (SQLException e) {
                 new Alert(Alert.AlertType.ERROR, "Failed to update the customer " + id + e.getMessage()).show();
@@ -189,7 +188,7 @@ public class ManageCustomersFormController {
 
     boolean existCustomer(String id) throws SQLException, ClassNotFoundException {
         //CustomerDAO customerDAO = new CustomerDAOImpl();
-        return customerDAO.exitCustomer(id);
+        return customerDAO.exist(id);
     }
 
     public void btnDelete_OnAction(ActionEvent actionEvent) {
@@ -201,7 +200,7 @@ public class ManageCustomersFormController {
             }
 
             //CustomerDAO customerDAO = new CustomerDAOImpl();
-            customerDAO.deleteCustomer(id);
+            customerDAO.delete(id);
 
             tblCustomers.getItems().remove(tblCustomers.getSelectionModel().getSelectedItem());
             tblCustomers.getSelectionModel().clearSelection();
